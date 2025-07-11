@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Tachiyomi: Zerobyw (Shizuku)",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.zerobywshizuku",
+    "apk": "tachiyomi-zh.zerobywshizuku-v1.4.20.apk",
+    "lang": "zh",
+    "code": 20,
+    "version": "1.4.20",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "zero搬运网(雫)",
+        "lang": "zh",
+        "id": "3447978177657045783",
+        "baseUrl": "http://www.zerobywgbo2.com",
+        "versionId": 1
+      }
+    ]
+  }
+]
