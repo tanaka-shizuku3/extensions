@@ -1,5 +1,25 @@
 [
   {
+    "name": "Tachiyomi: WebDAV",
+    "pkg": "eu.kanade.tachiyomi.extension.all.webdav",
+    "apk": "tachiyomi-all.webdav-v1.4.1.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "WebDAV",
+        "lang": "all",
+        "id": "1051788954804766134",
+        "baseUrl": "",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Zerobyw (Shizuku)",
     "pkg": "eu.kanade.tachiyomi.extension.zh.zerobywshizuku",
     "apk": "tachiyomi-zh.zerobywshizuku-v1.4.20.apk",
