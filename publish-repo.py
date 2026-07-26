@@ -27,7 +27,7 @@ def aapt() -> Path:
 
 # Artifacts downloaded from the build jobs: one APK per extension plus the source metadata JSON
 # emitted by each assembleRelease.
-ARTIFACTS_DIR = Path.home() / "apk-artifacts"
+ARTIFACTS_DIR = Path.cwd() / "apk-artifacts"
 
 # The checked-out `repo` branch we publish into (the working directory).
 REPO_DIR = Path.cwd()
@@ -38,9 +38,9 @@ REPO_APK_DIR.mkdir(parents=True, exist_ok=True)
 REPO_JAR_DIR.mkdir(parents=True, exist_ok=True)
 REPO_ICON_DIR.mkdir(parents=True, exist_ok=True)
 
-APK_BASE_URL = "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk"
-JAR_BASE_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar"
-ICON_BASE_URL = "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/icon"
+APK_BASE_URL = "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk"
+JAR_BASE_URL = "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar"
+ICON_BASE_URL = "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon"
 
 to_delete: list[str] = json.loads(sys.argv[1])
 
@@ -118,24 +118,16 @@ for info_file in ARTIFACTS_DIR.glob("**/keiyoushi-source-info.json"):
         )
     )
 
-# Merge with the already-published index, dropping the deleted/rebuilt modules.
-with REPO_DIR.joinpath("index.json").open() as f:
-    remote_proto = json_format.Parse(f.read(), index_pb2.Index())
-
-all_extensions = [
-    ext
-    for ext in remote_proto.extensionList.extensions
-    if not any(ext.packageName.endswith(f".{module}") for module in to_delete)
-]
+all_extensions = []
 all_extensions.extend(new_extensions)
 all_extensions.sort(key=lambda ext: ext.packageName)
 
 index = index_pb2.Index(
-    name="Keiyoushi",
-    badgeLabel="KEI",
-    signingKey="9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2",
+    name="shizuku",
+    badgeLabel="SHI",
+    signingKey="6e799ff2f638979519fbc67871ef41120b5171678d327803faad5c1d6dc4b95a",
     contact=index_pb2.Contact(
-        website="https://keiyoushi.github.io", discord="https://discord.gg/3FbCpdKbdY"
+        website="https://github.com/tanaka-shizuku3/extensions"
     ),
     extensionList=index_pb2.ExtensionList(extensions=all_extensions),
 )
