@@ -2,10 +2,10 @@
   {
     "name": "Tachiyomi: WebDAV",
     "pkg": "eu.kanade.tachiyomi.extension.all.webdav",
-    "apk": "tachiyomi-all.webdav-v1.4.1.apk",
+    "apk": "tachiyomi-all.webdav-v1.6.1.apk",
     "lang": "all",
     "code": 1,
-    "version": "1.4.1",
+    "version": "1.6.1",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -22,10 +22,10 @@
   {
     "name": "Tachiyomi: Dm5 (Shizuku)",
     "pkg": "eu.kanade.tachiyomi.extension.zh.dm5shizuku",
-    "apk": "tachiyomi-zh.dm5shizuku-v1.4.9.apk",
+    "apk": "tachiyomi-zh.dm5shizuku-v1.4.10.apk",
     "lang": "zh",
-    "code": 9,
-    "version": "1.4.9",
+    "code": 10,
+    "version": "1.4.10",
     "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -35,26 +35,6 @@
         "lang": "zh",
         "id": "2177383050451378154",
         "baseUrl": "https://www.dm5.cn",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Zerobyw (Shizuku)",
-    "pkg": "eu.kanade.tachiyomi.extension.zh.zerobywshizuku",
-    "apk": "tachiyomi-zh.zerobywshizuku-v1.4.20.apk",
-    "lang": "zh",
-    "code": 20,
-    "version": "1.4.20",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
-      {
-        "name": "zero搬运网(雫)",
-        "lang": "zh",
-        "id": "3447978177657045783",
-        "baseUrl": "http://www.zerobywgbo2.com",
         "versionId": 1
       }
     ]
