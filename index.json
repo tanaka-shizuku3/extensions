@@ -1,42 +1,85 @@
-[
-  {
-    "name": "Tachiyomi: WebDAV",
-    "pkg": "eu.kanade.tachiyomi.extension.all.webdav",
-    "apk": "tachiyomi-all.webdav-v1.6.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.6.1",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
+{
+  "name": "shizuku",
+  "badgeLabel": "SHI",
+  "signingKey": "6e799ff2f638979519fbc67871ef41120b5171678d327803faad5c1d6dc4b95a",
+  "contact": {
+    "website": "https://github.com/tanaka-shizuku3/extensions"
+  },
+  "extensionList": {
+    "extensions": [
       {
         "name": "WebDAV",
-        "lang": "all",
-        "id": "1051788954804766134",
-        "baseUrl": "",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Dm5 (Shizuku)",
-    "pkg": "eu.kanade.tachiyomi.extension.zh.dm5shizuku",
-    "apk": "tachiyomi-zh.dm5shizuku-v1.4.10.apk",
-    "lang": "zh",
-    "code": 10,
-    "version": "1.4.10",
-    "nsfw": 1,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
+        "packageName": "eu.kanade.tachiyomi.extension.all.webdav",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-all.webdav-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.all.webdav.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-all.webdav-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": "1051788954804766134",
+            "name": "WebDAV",
+            "language": "all",
+            "homeUrl": "https://127.0.0.1"
+          },
+          {
+            "id": "300134090701711843",
+            "name": "WebDAV (2)",
+            "language": "all",
+            "homeUrl": "https://127.0.0.1"
+          }
+        ]
+      },
       {
-        "name": "动漫屋(雫)",
-        "lang": "zh",
-        "id": "2177383050451378154",
-        "baseUrl": "https://www.dm5.cn",
-        "versionId": 1
+        "name": "Dm5 (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.dm5shizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.dm5shizuku-v1.4.10.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.dm5shizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.dm5shizuku-v1.4.10.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "10",
+        "versionName": "1.4.10",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "2177383050451378154",
+            "name": "\u52a8\u6f2b\u5c4b(\u96eb)",
+            "language": "zh",
+            "homeUrl": "https://www.dm5.com",
+            "mirrorUrls": [
+              "https://www.dm5.com",
+              "https://www.dm5.cn"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tibiu (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.tibiushizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.tibiushizuku-v1.4.9.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.tibiushizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.tibiushizuku-v1.4.9.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "9",
+        "versionName": "1.4.9",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "2926823700114516293",
+            "name": "TIBIU(\u96eb)",
+            "language": "zh",
+            "homeUrl": "https://comic.tibiu.net"
+          }
+        ]
       }
     ]
   }
-]
+}
