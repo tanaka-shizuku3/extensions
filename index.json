@@ -60,6 +60,27 @@
         ]
       },
       {
+        "name": "Guazi (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.guazishizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.guazishizuku-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.guazishizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.guazishizuku-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "2978070043954735784",
+            "name": "\u74dc\u5b50\u6f2b\u753b(\u96eb)",
+            "language": "zh",
+            "homeUrl": "https://www.guazimanhua.com"
+          }
+        ]
+      },
+      {
         "name": "tibiu (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.tibiushizuku",
         "resources": {
