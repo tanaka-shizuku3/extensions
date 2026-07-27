@@ -35,6 +35,27 @@
         ]
       },
       {
+        "name": "acgn (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.acgnshizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.acgnshizuku-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.acgnshizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.acgnshizuku-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "4614340537512539204",
+            "name": "\u52d5\u6f2b\u6232\u8aaa(\u96eb)",
+            "language": "zh",
+            "homeUrl": "https://comic.acgn.cc"
+          }
+        ]
+      },
+      {
         "name": "Dm5 (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.dm5shizuku",
         "resources": {
