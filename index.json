@@ -102,6 +102,32 @@
         ]
       },
       {
+        "name": "Manwa (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.manwashizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.manwashizuku-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.manwashizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.manwashizuku-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "7453499921408758404",
+            "name": "\u6f2b\u86d9(\u96eb)",
+            "language": "zh",
+            "homeUrl": "https://manwali.cc",
+            "mirrorUrls": [
+              "https://manwali.cc",
+              "https://mwuu.cc",
+              "https://www.manwayi.cc"
+            ]
+          }
+        ]
+      },
+      {
         "name": "tibiu (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.tibiushizuku",
         "resources": {
