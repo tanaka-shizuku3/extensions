@@ -3,6 +3,7 @@ import html
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 from functools import cache
@@ -34,6 +35,12 @@ REPO_DIR = Path.cwd()
 REPO_APK_DIR = REPO_DIR / "apk"
 REPO_JAR_DIR = REPO_DIR / "jar"
 REPO_ICON_DIR = REPO_DIR / "icon"
+
+# Remove everything
+shutil.rmtree(REPO_APK_DIR, ignore_errors=True)
+shutil.rmtree(REPO_JAR_DIR, ignore_errors=True)
+shutil.rmtree(REPO_ICON_DIR, ignore_errors=True)
+
 REPO_APK_DIR.mkdir(parents=True, exist_ok=True)
 REPO_JAR_DIR.mkdir(parents=True, exist_ok=True)
 REPO_ICON_DIR.mkdir(parents=True, exist_ok=True)
@@ -41,20 +48,6 @@ REPO_ICON_DIR.mkdir(parents=True, exist_ok=True)
 APK_BASE_URL = "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk"
 JAR_BASE_URL = "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar"
 ICON_BASE_URL = "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon"
-
-to_delete: list[str] = json.loads(sys.argv[1])
-
-# Drop apks/icons for modules that were deleted or rebuilt (rebuilt ones are re-added below).
-for module in to_delete:
-    for file in REPO_APK_DIR.glob(f"tachiyomi-{module}-v*.*.*.apk"):
-        print(f"removing {file.name}")
-        file.unlink(missing_ok=True)
-    for file in REPO_JAR_DIR.glob(f"tachiyomi-{module}-v*.*.*.jar"):
-        print(f"removing {file.name}")
-        file.unlink(missing_ok=True)
-    for file in REPO_ICON_DIR.glob(f"eu.kanade.tachiyomi.extension.{module}.png"):
-        print(f"removing {file.name}")
-        file.unlink(missing_ok=True)
 
 # Build index entries for the freshly built apks. Each extension's metadata comes from the
 # source-info JSON emitted by its assembleRelease task (see GenerateSourceInfoTask); its APK is a
