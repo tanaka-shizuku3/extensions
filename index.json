@@ -102,6 +102,27 @@
         ]
       },
       {
+        "name": "Hipmh (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.hipmhshizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.hipmhshizuku-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.hipmhshizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.hipmhshizuku-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "6788037216855987347",
+            "name": "\u5b09\u76ae\u6f2b\u756b(\u96eb)",
+            "language": "zh",
+            "homeUrl": "https://m.hipmh.com"
+          }
+        ]
+      },
+      {
         "name": "Manwa (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.manwashizuku",
         "resources": {
