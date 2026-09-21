@@ -144,6 +144,27 @@
         ]
       },
       {
+        "name": "pubu (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.pubushizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.pubushizuku-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.pubushizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.pubushizuku-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "6299879836800645521",
+            "name": "pubu (Shizuku)",
+            "language": "zh",
+            "homeUrl": "https://www.pubu.com.tw"
+          }
+        ]
+      },
+      {
         "name": "tibiu (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.tibiushizuku",
         "resources": {
