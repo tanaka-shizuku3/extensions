@@ -165,6 +165,27 @@
         ]
       },
       {
+        "name": "Readmoo (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.readmooshizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.readmooshizuku-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.readmooshizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.readmooshizuku-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "8833830258984085653",
+            "name": "Readmoo (Shizuku)",
+            "language": "zh",
+            "homeUrl": "https://api.readmoo.com"
+          }
+        ]
+      },
+      {
         "name": "tibiu (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.tibiushizuku",
         "resources": {
