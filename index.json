@@ -123,6 +123,27 @@
         ]
       },
       {
+        "name": "Manhuamanga (Shizuku)",
+        "packageName": "eu.kanade.tachiyomi.extension.zh.manhuamangashizuku",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.manhuamangashizuku-v1.4.9.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.manhuamangashizuku.png",
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.manhuamangashizuku-v1.4.9.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "9",
+        "versionName": "1.4.9",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": "3215572506762670620",
+            "name": "\u6f2b\u753bmanga(\u96eb)",
+            "language": "zh",
+            "homeUrl": "https://www.mh03.com"
+          }
+        ]
+      },
+      {
         "name": "Manwa (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.manwashizuku",
         "resources": {
