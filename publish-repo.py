@@ -120,7 +120,7 @@ all_extensions.sort(key=lambda ext: ext.packageName)
 index = index_pb2.Index(
     name="shizuku",
     badgeLabel="SHI",
-    signingKey="6e799ff2f638979519fbc67871ef41120b5171678d327803faad5c1d6dc4b95a",
+    signingKey="9314abe04efbecbc048c3c75da094363ba3f1da80268c7f0b2cd562d0910fcdf",
     contact=index_pb2.Contact(
         website="https://github.com/tanaka-shizuku3/extensions"
     ),
