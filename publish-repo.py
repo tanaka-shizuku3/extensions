@@ -67,6 +67,8 @@ for info_file in ARTIFACTS_DIR.glob("**/keiyoushi-source-info.json"):
     apk_name = apk.name.replace("-release.apk", ".apk")
     (REPO_APK_DIR / apk_name).write_bytes(apk.read_bytes())
 
+    if len(list((info_file.parent / "outputs/jar/release").glob("*.jar"))) > 1:
+        raise Exception(f"{package_name}: multiple jar found under {info_file.parent}")
     jar = next((info_file.parent / "outputs/jar/release").glob("*.jar"), None)
     if jar is None:
         raise FileNotFoundError(
