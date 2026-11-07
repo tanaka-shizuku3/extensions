@@ -168,13 +168,13 @@
         "name": "pubu (Shizuku)",
         "packageName": "eu.kanade.tachiyomi.extension.zh.pubushizuku",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.pubushizuku-v1.6.2.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/apk/tachiyomi-zh.pubushizuku-v1.6.3.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/tanaka-shizuku3/extensions/icon/eu.kanade.tachiyomi.extension.zh.pubushizuku.png",
-          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.pubushizuku-v1.6.2.jar"
+          "jarUrl": "https://raw.githubusercontent.com/tanaka-shizuku3/extensions/master/jar/tachiyomi-zh.pubushizuku-v1.6.3.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106002",
-        "versionName": "1.6.2",
+        "versionCode": "106003",
+        "versionName": "1.6.3",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
